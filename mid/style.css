@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #292a2d;
+  color: #ccc;
+}
+
+main {
+  margin: 0 15vw;
+}
+
+header {
+  background-color: #202124;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+header nav .navigation .searching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .navigation .searching input {
+  width: 50%;
+  max-width: 80rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+}
+header nav .navigation .nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 1rem 0 1rem;
+  max-width: 40rem;
+}
+header nav .navigation .nav-links a {
+  text-decoration: none;
+  padding: 0.4rem;
+  color: #ccc;
+}
+header nav .navigation .nav-links a:hover {
+  color: white;
+}
+header nav .profile {
+  display: flex;
+  margin-top: 1rem;
+}
+header nav .options {
+  margin: 0 1rem;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.container .heading {
+  border-bottom: 1px solid #ccc;
+}
+.container .news {
+  display: flex;
+  margin-top: 1rem;
+  align-items: flex-start;
+}
+.container .news .news-title {
+  flex: 0.3fr;
+}
+.container .news .news-title img {
+  width: 100%;
+}
+.container .news .news-title:first-child {
+  font-size: 1.3rem;
+}
+.container .news .news-title p {
+  margin-top: 1rem;
+}
+.container .news .other-news {
+  padding: 1rem;
+  flex: 0.7fr;
+}
+.container .news .other-news p {
+  margin-top: 1rem;
+}
+.container .news .other-news .heading {
+  font-weight: bold;
+}
+.container .news-merge {
+  display: flex;
+  gap: 1rem;
+}
+
+.small-news {
+  margin: 1rem 0;
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.small-news img {
+  width: 100%;
+}
+.small-news .news-platform {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #202124;
+}
+
+section {
+  margin-top: 1rem;
+}/*# sourceMappingURL=style.css.map */
